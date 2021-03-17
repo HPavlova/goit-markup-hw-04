@@ -110,9 +110,6 @@ section {
 }
 
 .social {
-  /* display: flex; */
-  width: 206px;
-  height: 44px;
   margin-top: 16px;
 }
 
@@ -233,7 +230,7 @@ section {
 }
 
 .contact-header {
-  display: inline-block;
+  display: flex;
   align-items: center;
   font-weight: 500;
   font-size: 14px;
@@ -462,11 +459,9 @@ section {
 .footer .container {
   display: flex;
   align-items: baseline;
-  height: 252px;
 }
 
 .footer-social {
-  height: 80px;
   margin-left: 70px;
 }
 
